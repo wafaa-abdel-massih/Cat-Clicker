@@ -1,0 +1,65 @@
+/* main cat clicker area */
+.cat-container {
+  display: flex;
+  flex-direction: flex-row;
+  place-content: center;
+  place-items: center;
+  border-bottom:3px solid gray;
+  max-width: 60%;
+  padding: 12px;
+}
+
+/* style for image tags */
+img {
+  height: 200px;
+  width: 200px;
+  cursor: pointer;
+}
+
+/* list of cats' names */
+#sidebar {
+  margin-right: 30px;
+}
+
+/* button of cat name */
+.cat-link {
+  margin: 0 0 5px 0;
+  font-size: 25px;
+  padding: 5px;
+  background-color: #cccccc;
+  border-radius: 10px;
+  border: 2px solid #aaaaaa;
+  cursor: pointer;
+}
+
+/* area to display cat's info */
+#cat-info-display {
+  background-color: #dddddd;
+  border-radius: 10px;
+  padding: 20px;
+  border: 2px solid #aaaaaa;
+} 
+
+/* admin area*/
+.admin-container {
+  display: flex;
+  flex-direction: flex-row;
+  padding: 12px;
+}
+
+/* admin button */
+#admin {
+  background-color: turquoise;
+  padding: 9px;
+  font-size: x-large;
+  font-family: cursive;
+  cursor: pointer;
+  height: fit-content;
+}
+
+/* area to display current cat's info for the admin to changes it */
+#info {
+  display: none;
+  flex-direction: column;
+  margin-left: 4%;
+}

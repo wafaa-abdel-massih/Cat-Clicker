@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Cat Clicker</title>
+  <link rel="stylesheet" href="CSS\css.css">
+</head>
+<body>
+  <div class="main-container">
+    <div class="cat-container">
+      <div id="sidebar"></div>
+      <div id="cat-info-display">
+        <h2 id="cat-name"></h2>
+        <p id="cat-count"></p>
+        <img id="cat-img" src="" alt="cat">
+      </div>
+    </div>  
+    <div class="admin-container">
+      <button id='admin'>Admin</button>
+      <div id="info" style="display: none;">
+        Name: <input id="name" type="text" value="">
+        URL: <input id="url" type="url" value="">
+        clicks: <input id="click" type="number" value="">
+        <div>    
+          <button id="save">Save</button>
+          <button id="cancle">Cancle</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="JS\app.js"></script>
+</body>
+</html>
